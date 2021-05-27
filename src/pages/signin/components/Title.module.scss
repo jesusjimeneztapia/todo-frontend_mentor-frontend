@@ -1,0 +1,16 @@
+@import '../../../styles/colors.scss';
+
+.title {
+	background-color: $lt-very-light-gray;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: $lt-very-dark-grayish-blue;
+	transition: ease-out 0.8s;
+
+	&.--dark {
+		background-color: $dt-very-dark-desaturated-blue;
+		color: $dt-light-grayish-blue;
+	}
+}

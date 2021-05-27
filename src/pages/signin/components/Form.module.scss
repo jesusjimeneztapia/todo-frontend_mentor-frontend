@@ -1,0 +1,16 @@
+@import '../../../styles/colors.scss';
+
+.form {
+	background-color: $lt-very-light-gray;
+	border-radius: 0.2em;
+	transition: ease-out 0.8s;
+
+	&__submit {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&.--dark {
+		background-color: $dt-very-dark-desaturated-blue;
+	}
+}

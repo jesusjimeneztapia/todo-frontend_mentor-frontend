@@ -1,0 +1,19 @@
+@import '../../../styles/colors.scss';
+
+.submit {
+	cursor: pointer;
+	font-size: 1em;
+	border: none;
+	padding: 8px 16px;
+	color: $dt-very-dark-blue;
+	background-color: $gradient-1;
+	transition: ease-out 0.8s;
+
+	&.--dark {
+		color: $lt-very-light-grayish-blue;
+		background-color: $bright-blue;
+	}
+	&.--purple {
+		background-color: $gradient-2;
+	}
+}

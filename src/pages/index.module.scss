@@ -1,0 +1,16 @@
+@import '../styles/colors.scss';
+
+.page {
+	box-sizing: border-box;
+	overflow-x: hidden;
+	position: relative;
+	min-height: 100vh;
+	background-color: $lt-very-light-grayish-blue;
+	padding: 64px 0px;
+	transition: ease-out 0.8s;
+	z-index: 0;
+
+	&.--dark {
+		background-color: $dt-very-dark-blue;
+	}
+}

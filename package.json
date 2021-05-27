@@ -1,0 +1,58 @@
+{
+	"name": "todo-frontend",
+	"version": "1.0.0",
+	"description": "This is a to-do app of the Frontend Mentor challenge.",
+	"private": true,
+	"dependencies": {
+		"axios": "^0.21.1",
+		"formik": "^2.2.8",
+		"http-proxy-middleware": "^2.0.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.3",
+		"web-vitals": "^1.1.2",
+		"yup": "^0.32.9"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"keywords": [
+		"to-do-app",
+		"react",
+		"reactjs",
+		"rest-api",
+		"sass",
+		"css-modules",
+		"axios"
+	],
+	"author": "Jesús Jimenez <jesusjimeneztapia456@gmail.com>",
+	"license": "UNLICENSED",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jesusjimeneztapia/todo-frontend_mentor-frontend.git"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"node-sass": "^6.0.0"
+	}
+}
